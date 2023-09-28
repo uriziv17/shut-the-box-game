@@ -13,18 +13,6 @@ const INITIALPOOL = {
     '9': true,
 }
 
-// const INITIALPOOL = new Map([
-//     [1, true],
-//     [2, true],
-//     [3, true],
-//     [4, true],
-//     [5, true],
-//     [6, true],
-//     [7, true],
-//     [8, true],
-//     [9, true]
-// ])
-
 export default function ButtonList() {
     const [numberPool, setNumberPool] = useState(INITIALPOOL)
 

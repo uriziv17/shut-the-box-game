@@ -37,7 +37,7 @@
   color: #fff;
   border: none;
   border-radius: 15px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .active {
@@ -46,6 +46,13 @@
 }
 
 .disabled {
+  background-color: #989898;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  cursor: not-allowed;
+}
+
+.button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -56,12 +63,7 @@
   top: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.dice {
+  position: relative;
+  top: 150px;
 }
